@@ -52,7 +52,7 @@ public class MySimpleStackTest {
 
     @Test
     public void testPop() throws Exception {
-        Item item = new Item(new String("coucou"));
+        Item item = new Item(new String("Cool"));
         list.push(item);
         assertFalse("La liste ne doit pas être vide", list.isEmpty());
         Item prevItem = list.pop();
