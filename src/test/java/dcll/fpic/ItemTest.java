@@ -11,7 +11,7 @@ public class ItemTest {
 
     @Before
     public void setUp() throws Exception {
-        item = new Item("coucou");
+        item = new Item("OK");
         System.out.println("Je suis exécuté avant chaque test");
     }
 
